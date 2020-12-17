@@ -10,7 +10,7 @@ The task of the competition is to detect patterns in a large volcanic dataset. D
 Currently, model extracts spectrograms from corresponding waveforms to detect patterns as proposed in Chouet article on eruption forecasting. After, spectrograms are being fed to 
 16 layer CNN(7 conv layers, 5 pooling layers, 4 fully connected layers). Model is being trained on Kaggle GPU.
 
-Hyperparameter | Name
+Hyperparameter | Value
 ---|---
 Learning rate | *1e-3*
 Optimizer | *Adam, beta1=0.9, beta2=0.999, eps=1e-6*
