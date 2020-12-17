@@ -11,7 +11,8 @@ Currently, model extracts spectrograms from corresponding waveforms to detect pa
 16 layer CNN(7 conv layers, 5 pooling layers, 4 fully connected layers). 
 
 Hyperparameter | Name
---------------|------------------
+---|---
 Learning rate | *1e-3*
 Optimizer | *Adam, beta1=0.9, beta2=0.999, eps=1e-6*
-
+## Todo:
+As for right now, model might simultaneously start to produce Nan values as gradients become Nan during the training process. Model is thought to be suffering from exploding gradinets problem, which is being object for investigation and debugging.
