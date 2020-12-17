@@ -18,4 +18,5 @@ Optimizer | *Adam, beta1=0.9, beta2=0.999, eps=1e-6*
 As for right now, model might simultaneously start to produce Nan values as gradients become Nan during the training process. Model is thought to be suffering from exploding gradinets problem, which is being object for investigation and debugging.
 ## References:
 [Competition page](https://www.kaggle.com/c/predict-volcanic-eruptions-ingv-oe)
+
 [Article on eruption forecasting](https://www.nature.com/articles/380309a0)
