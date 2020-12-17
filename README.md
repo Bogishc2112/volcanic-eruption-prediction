@@ -1,9 +1,8 @@
 # Kaggle: INGV - Volcanic Eruption Prediction
 ---
-Current stage | *model debugging*
---------------|------------------
-Current version | *4*
---------------|------------------
+| Current stage | *model debugging* |
+| Current version | *4* |
+
 ## About:
 The task of the competition is to detect patterns in a large volcanic dataset. Dataset is comprised of 10 minutes of recordings of 10 seismic sensors being placed around active volcanos. Approximately 4 thousand of recording pieces have corresponding time-to-eruption value, while model task is to predict this metric for another 4 thousand pieces.
 ## Model:
