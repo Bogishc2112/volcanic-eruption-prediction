@@ -13,6 +13,7 @@ Hyperparameter | Value
 Learning rate | *1e-3*
 Optimizer | *Adam, beta1=0.9, beta2=0.999, eps=1e-6*
 Number of epochs | *10*
+Batch | *one corresponding 10 min fragment*
 ## Todo:
 As for right now, model might simultaneously start to produce Nan values as gradients become Nan during the training process. Model is thought to be suffering from exploding gradinets problem, which is being object for investigation and debugging.
 ## References:
