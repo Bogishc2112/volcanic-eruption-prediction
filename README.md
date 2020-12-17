@@ -1,6 +1,7 @@
 # Kaggle: INGV - Volcanic Eruption Prediction
 ---
 | Current stage | *model debugging* |
+
 | Current version | *4* |
 
 ## About:
